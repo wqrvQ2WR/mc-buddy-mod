@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "buddy",
+	"version": "${version}",
+	"name": "Buddy",
+	"description": "같이 놀아주는 NPC 동료를 추가하는 모드",
+	"authors": [
+		"wqrvq"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.wqrvq.buddy.BuddyMod"
+		],
+		"client": [
+			"net.wqrvq.buddy.BuddyModClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
